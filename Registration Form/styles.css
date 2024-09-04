@@ -1,0 +1,99 @@
+/* Style for the body, which takes up the full width and height of the viewport */
+/* Sets background color, text color, and a default font with size */
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0; /* Removes default margin around the body */
+    background-color: #1b1b32; /* Dark background for contrast */
+    color: #f5f6f7; /* Light text for readability */
+    font-family: Tahoma; /* Sets the font to Tahoma */
+    font-size: 16px; /* Base font size */
+  }
+  
+  /* Styles applied to heading (h1) and paragraph (p) tags */
+  /* Center-aligns text and adds margins around them */
+  h1, p {
+    margin: 1em auto; /* Centered with margin on top and bottom */
+    text-align: center; /* Centers the text */
+  }
+  
+  /* Form styles */
+  /* Centers the form on the page and controls its width */
+  form {
+    width: 60vw; /* Form width is 60% of the viewport width */
+    max-width: 500px; /* Maximum width of the form */
+    min-width: 300px; /* Minimum width of the form */
+    margin: 0 auto; /* Centers the form horizontally */
+    padding-bottom: 2em; /* Adds padding at the bottom of the form */
+  }
+  
+  /* Fieldset styles */
+  /* Removes default borders and adds space between fieldsets */
+  fieldset {
+    border: none; /* Removes the default border around the fieldset */
+    padding: 2rem 0; /* Adds space inside each fieldset */
+    border-bottom: 3px solid #3b3b4f; /* Adds a custom bottom border */
+  }
+  
+  /* Removes the border from the last fieldset */
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  /* Label styles */
+  /* Ensures each label is displayed as a block and spaced out */
+  label {
+    display: block; /* Forces each label to be on its own line */
+    margin: 0.5rem 0; /* Adds space above and below each label */
+  }
+  
+  /* Input, textarea, and select styles */
+  /* Ensures inputs take up the full width and have minimum height */
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0; /* Adds top margin to the inputs */
+    width: 100%; /* Makes input elements take full width of the container */
+    min-height: 2em; /* Ensures inputs have a minimum height */
+  }
+  
+  /* Input and textarea specific styles */
+  /* Gives them a dark background and white text */
+  input, textarea {
+    background-color: #0a0a23; /* Dark background for input fields */
+    border: 1px solid #0a0a23; /* Dark border to match background */
+    color: #ffffff; /* White text inside inputs */
+  }
+  
+  /* Inline class styles */
+  /* Used for inline elements like radio buttons or checkboxes */
+  .inline {
+    width: unset; /* Removes width settings */
+    margin: 0 0.5em 0 0; /* Adds right margin for spacing */
+    vertical-align: middle; /* Aligns inline elements with the middle of the text */
+  }
+  
+  /* Submit button styles */
+  /* Customizes the appearance and positioning of the submit button */
+  input[type="submit"] {
+    display: block; /* Makes the button a block element */
+    width: 60%; /* Button takes 60% of the form's width */
+    margin: 1em auto; /* Centers the button horizontally */
+    height: 2em; /* Sets a fixed height for the button */
+    font-size: 1.1rem; /* Increases font size slightly */
+    background-color: #3b3b4f; /* Dark background for the button */
+    border-color: white; /* White border for the button */
+    min-width: 300px; /* Ensures the button is not too narrow */
+  }
+  
+  /* File input field styles */
+  /* Ensures it has appropriate padding for file selection */
+  input[type="file"] {
+    padding: 1px 2px; /* Adds padding inside the file input */
+  }
+  
+  /* Inline display override for elements using the 'inline' class */
+  .inline {
+    display: inline; /* Ensures elements with the 'inline' class are displayed inline */
+  }
+  
